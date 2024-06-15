@@ -18,6 +18,44 @@ svg {
   margin-inline: 400px;
 }
 
+.contact-info {
+  display: flex;
+  /* gap: 30px; */
+  align-items: center;
+  padding-block: 5px;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.contact-info i {
+  color: var(--secondary);
+}
+
+.contact-info h4 {
+  color: var(--secondary);
+}
+
+@media screen and (max-width: 500px) {
+  .contact-info {
+    justify-content: center;
+    font-size: 10px;
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .contact-info {
+    gap: 30px;
+  }
+}
+
+.contact-info span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -78,7 +116,7 @@ ul.links li a:hover {
   ul.links {
     display: none;
     position: absolute;
-    top: 50px;
+    top: 80px;
     left: 0;
     width: 100%;
     flex-direction: column;
