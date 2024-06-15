@@ -31,7 +31,7 @@ body {
 
 /* Hero Section */
 .about-hero {
-  background: url("/assets/about.jpg");
+  background: url("../assets/about.jpg");
   color: white;
   text-align: center;
   padding: 4em 0;
