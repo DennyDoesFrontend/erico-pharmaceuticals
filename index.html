@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Erico Pharmaceuticals</title>
+    <meta
+      name="description"
+      content="Erico Pharmaceuticals Co.Ltd was registered in 9th September 2016. We started community pharmacies in 2020 ,when we realized the covid has become a global problem and people in my community need access to medications. It was established by Mr Eric Effah and Mrs Adelaide Effah. Company located in Osu Accra and with it branches."
+    />
+    <meta name="robots" content="noindex" />
+  </head>
+  <body>
+    <nav class="section-pad">
+      <div class="logo">
+        <img src="logo.png" width="100" />
+        <p>Erico's</p>
+      </div>
+      <img
+        src="./assets/menu.png"
+        alt="Menu"
+        class="menu-toggle"
+        id="mobile-menu"
+      />
+      <ul class="links">
+        <li><a href="index.css">Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">FAQs</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="section-pad hero">
+      <img src="./hero.jpg" alt="" />
+      <div>
+        <h1>Welcome to Erico's Pharmaceuticals</h1>
+        <p>
+          Welcome to Erico Pharmaceuticals Co. Ltd. We provide essential
+          medications to our community with a commitment to quality and care.
+          Explore our services and locations to find out how we can assist you
+          with your healthcare needs.
+        </p>
+        <button class="contact">Contact Us</button>
+      </div>
+    </section>
+    <section class="section-pad services">
+      <h2>Our Pharmaceutical Services</h2>
+      <p>
+        We offer a wide range of medications and healthcare products to meet the
+        needs of our community. We aim to expand into pharmaceutical
+        manufacturing, distribution, and importation, providing comprehensive
+        solutions in the pharmaceutical industry.
+      </p>
+      <div class="container">
+        <div class="service-item">
+          <img src="./assets/stomach-pain.jpg" alt="Stomach Pain Medicine" />
+          <div class="service-info">
+            <h3 class="active">STOMACH PAIN</h3>
+            <p>
+              We offer a range of effective medicines to alleviate stomach pain
+              and related issues.
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <img src="./assets/headache.jpg" alt="Stomach Pain Medicine" />
+          <div class="service-info">
+            <h3 class="active">HEADACHES</h3>
+            <p>
+              Our range of headache medications provides fast and effective
+              relief, helping you get back to your day without the pain.
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <img src="./assets/multivitamins.jpg" alt="Stomach Pain Medicine" />
+          <div class="service-info">
+            <h3 class="active">MULTI-VITAMINS</h3>
+            <p>
+              Our selection of multivitamins supports overall health and
+              wellness, ensuring you get the essential nutrients your body
+              needs.
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <img src="./assets/painrelief.jpg" alt="Stomach Pain Medicine" />
+          <div class="service-info">
+            <h3 class="active">PAIN RELIEF</h3>
+            <p>
+              Our comprehensive range of pain relief medications helps alleviate
+              discomfort and improve your quality of life, whether you're
+              dealing with minor aches or chronic pain
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <img src="./assets/cough.jpg" alt="Stomach Pain Medicine" />
+          <div class="service-info">
+            <h3 class="active">COUGH & SORE THROAT</h3>
+            <p>
+              Our effective cough and sore throat remedies provide soothing
+              relief and help you feel better quickly, easing irritation and
+              discomfort.
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <img src="./assets/contraceptive.jpg" alt="Stomach Pain Medicine" />
+          <div class="service-info">
+            <h3 class="active">CONTRACEPTIVES</h3>
+            <p>
+              Our variety of contraceptive options ensures reliable and safe
+              family planning, giving you peace of mind and control over your
+              reproductive health.
+            </p>
+          </div>
+        </div>
+      </div>
+      <h3>AND MUCH MUCH MORE</h3>
+    </section>
+    <section class="contact section-pad">
+      <h2>Contact Us</h2>
+      <p>
+        For more information on our products, please leave a message and we will
+        reach out to you shortly
+      </p>
+      <form action="https://formspree.io/f/xzbnnjkv" method="post">
+        <div class="top">
+          <div class="fullname">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required />
+          </div>
+          <div class="email">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="subject">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+        </div>
+        <div class="message">
+          <label for="message"> Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button class="contact-btn">Submit</button>
+      </form>
+    </section>
+    <footer class="section-pad-footer">
+      <div class="logo-text">
+        <div class="logo"><img src="logo.png" width="100" /></div>
+        <p>
+          We provide essential medications to our community with a commitment to
+          quality and care.
+        </p>
+      </div>
+      <div class="pages">
+        <h3>Pages</h3>
+        <a href="index.html">Home</a>
+        <a href="">About Us</a>
+        <a href="">Contact Us</a>
+      </div>
+      <div class="contactus">
+        <h3>Contact</h3>
+        <p>Ghana: +233 24 429 5540</p>
+        <p>Ivory coast: +255 0707676392</p>
+      </div>
+    </footer>
+    <div class="copy">
+      &copy; 2024 | All rights Reserved. Erico's Pharmaceuticals
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
