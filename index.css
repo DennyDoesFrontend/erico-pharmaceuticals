@@ -18,9 +18,9 @@ svg {
   margin-inline: 400px;
 }
 
-.contact-info {
+.contact-info,
+.contact-main {
   display: flex;
-  /* gap: 30px; */
   align-items: center;
   padding-block: 5px;
   flex-wrap: wrap;
@@ -116,7 +116,7 @@ ul.links li a:hover {
   ul.links {
     display: none;
     position: absolute;
-    top: 80px;
+    top: 100px;
     left: 0;
     width: 100%;
     flex-direction: column;
@@ -230,6 +230,68 @@ ul.links li a:hover {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+/* consumables */
+/* Add this to your existing CSS or index.css file */
+
+.consumables {
+  background-color: #f8f9fa;
+  padding: 2em;
+  text-align: center;
+}
+
+.consumables h2 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+.consumables p {
+  margin-bottom: 1em;
+}
+
+.consumables .consumables-list {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.consumable-item {
+  max-width: 250px;
+  text-align: left;
+}
+
+.consumable-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.consumable-item h3 {
+  font-size: 1.5rem;
+  margin-top: 0.5em;
+}
+
+.consumable-item p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.consumables button.contact {
+  background-color: #01aa4d;
+  color: #fff;
+  border: none;
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2em;
+}
+
+.consumables button.contact:hover {
+  background-color: #016710;
 }
 
 /* contact */
