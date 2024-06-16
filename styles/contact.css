@@ -1,0 +1,248 @@
+@import url(./defaults.css);
+@import url(./navigation.css);
+
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.section-pad {
+  margin-inline: 400px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/about.jpg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 4em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: white;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 1em;
+  color: white;
+}
+
+/* Contact Info Section */
+.contact-data {
+  background: white;
+  padding: 3em 0;
+}
+
+.contact-data .itemcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 950px) {
+  .itemcontainer {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .itemcontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.contact-data .info-item {
+  flex: 1;
+  /* max-width: 30%; */
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.contact-data h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+  color: green;
+}
+
+.contact-data p {
+  font-size: 1rem;
+  color: #555;
+}
+.contact {
+  padding: 50px 0;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+
+form .top {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.fullname,
+.email,
+.subject,
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+}
+
+input {
+  padding: 10px 8px;
+  font-size: 15px;
+  border: 2px solid #e6e4e8;
+  outline: none;
+}
+
+.message {
+  width: 100%;
+}
+
+textarea {
+  min-height: 200px;
+  border: 2px solid #e6e4e8;
+  outline: none;
+  padding: 5px;
+}
+
+.contact-btn {
+  align-self: end;
+  padding: 8px 45px;
+  background-color: var(--secondary);
+  font-weight: bold;
+  border: 0;
+}
+
+/* Map Section */
+.map-section {
+  background: white;
+  padding: 3em 0;
+}
+
+.map-section .itemcontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.map-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+  color: green;
+}
+
+#map {
+  width: 100%;
+  height: 450px;
+  border: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .contact-info .info-item {
+    max-width: 45%;
+  }
+
+  .contact-form-section .itemcontainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .contact-info .info-item {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1630px) {
+  .section-pad {
+    margin-inline: 200px;
+  }
+  footer {
+    padding: 20px 50px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .section-pad {
+    margin-inline: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section-pad {
+    margin-inline: 10px;
+  }
+  .logo img {
+    width: 50px;
+  }
+}
