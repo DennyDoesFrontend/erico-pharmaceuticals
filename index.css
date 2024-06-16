@@ -210,6 +210,11 @@ svg {
   margin-top: 2em;
 }
 
+button.contact a {
+  text-decoration: none;
+  color: black;
+}
+
 .consumables button.contact:hover {
   background-color: #016710;
 }
