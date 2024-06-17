@@ -212,7 +212,7 @@ svg {
 
 button.contact a {
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 
 .consumables button.contact:hover {
